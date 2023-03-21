@@ -1,15 +1,11 @@
 {
-  "private": true,
-  "name": "bundle-example-areas",
+  "name": "whispermud-areas",
   "version": "1.0.0",
-  "description": "Example Ranvier areas",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RanvierMUD/bundle-example-areas.git"
-  },
-  "author": "Shawn Biddle <shawncplus@gmail.com>",
+  "description": "WhisperMud areas",
+  "author": "Nauughty Mole Games",
   "license": "MIT",
   "dependencies": {
-    "rando-js": "^0.2.0"
+    "rando-js": "^0.2.0",
+    "whispermud-areas": "drunkenimpgamestudio/whispermud-areas"
   }
 }
