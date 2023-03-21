@@ -5,7 +5,6 @@
   "author": "Nauughty Mole Games",
   "license": "MIT",
   "dependencies": {
-    "rando-js": "^0.2.0",
-    "whispermud-areas": "drunkenimpgamestudio/whispermud-areas"
+    "rando-js": "^0.2.0"
   }
 }

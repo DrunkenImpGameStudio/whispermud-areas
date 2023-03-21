@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast, Logger } = require('ranvier');
+const { Broadcast, Logger } = require('whispermud');
 
 module.exports = {
   listeners: {

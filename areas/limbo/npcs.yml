@@ -8,7 +8,7 @@
   quests: ['limbo:onecheeseplease']
   behaviors:
     combat: true
-    ranvier-wander:
+    whispermud-wander:
       interval: 20
       restrictTo: ['limbo:white', 'limbo:black', 'limbo:training1']
   attributes:
@@ -74,7 +74,7 @@
       pools:
         - "limbo:potions"
         - "limbo:trainingsword": 100
-        - "limbo:bladeofranvier": 5
+        - "limbo:bladeofwhispermud": 5
 - id: wallythewonderful
   keywords: ["wally", "wonderful", "shop", "vendor"]
   name: "Wally the Wonderful"
@@ -99,7 +99,7 @@
         "limbo:potionstrength1":
           cost: 150
           currency: gold
-        "limbo:bladeofranvier":
+        "limbo:bladeofwhispermud":
           cost: 99999
           currency: gold
       enterMessage: "Step right up! Get your wares at Moe's Shop!"
@@ -115,7 +115,7 @@
     strength: 12
   behaviors:
     combat: true
-    ranvier-aggro:
+    whispermud-aggro:
       delay: 5
 - id: aggro-npc-test
   keywords: ["test", "aggro", "dummy"]
@@ -128,7 +128,7 @@
     strength: 15
   behaviors:
     combat: true
-    ranvier-aggro:
+    whispermud-aggro:
       delay: 5
       towards:
         players: false

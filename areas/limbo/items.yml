@@ -121,13 +121,13 @@
       state:
         magnitude: 10
         stat: "strength"
-- id: bladeofranvier
+- id: bladeofwhispermud
   name: "Blade of Ranvier"
   type: WEAPON
   roomDesc: "Blade of Ranvier"
-  keywords: ["sword", "blade", "ranvier"]
+  keywords: ["sword", "blade", "whispermud"]
   description: "The blade shines a brilliant silver. Holding it you feel as if you could take on the world."
-  script: "ranvier-blade"
+  script: "whispermud-blade"
   metadata:
     quality: epic
     slot: "wield"
