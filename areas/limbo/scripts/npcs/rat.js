@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast, Logger } = require('whispermud');
+const { Broadcast, Logger } = require('whispermud-core');
 
 module.exports = {
   listeners: {

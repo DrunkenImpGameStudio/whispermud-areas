@@ -2,7 +2,7 @@
 
 const { Random } = require('rando-js');
 
-const { Broadcast, Heal } = require('whispermud');
+const { Broadcast, Heal } = require('whispermud-core');
 
 /**
  * Example weapon hit script
