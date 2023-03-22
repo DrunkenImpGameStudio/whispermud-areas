@@ -8,7 +8,7 @@
   quests: ['limbo:onecheeseplease']
   behaviors:
     combat: true
-    whispermud-wander:
+    wander:
       interval: 20
       restrictTo: ['limbo:white', 'limbo:black', 'limbo:training1']
   attributes:
@@ -115,7 +115,7 @@
     strength: 12
   behaviors:
     combat: true
-    whispermud-aggro:
+    aggro:
       delay: 5
 - id: aggro-npc-test
   keywords: ["test", "aggro", "dummy"]
@@ -128,7 +128,7 @@
     strength: 15
   behaviors:
     combat: true
-    whispermud-aggro:
+    aggro:
       delay: 5
       towards:
         players: false
