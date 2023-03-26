@@ -1,0 +1,21 @@
+- id: cell1
+  title: "Cell 1"
+  description: "A featureless cell. Bars the shape of archway can be seen on the east side of the room."
+  behaviors:
+      port: true
+  metadata: 
+    isPort: true
+    destinations: 
+      - id: "prison:portjacobs"
+        title: "Cell 2"
+
+- id: cell2
+  title: "Cell 2"
+  description: "A featureless cell. Bars the shape of archway can be seen on the east side of the room."
+  behaviors:
+      port: true
+  metadata: 
+    isPort: true
+    destinations: 
+      - id: "prison:cell"
+        title: "Cell 1"
