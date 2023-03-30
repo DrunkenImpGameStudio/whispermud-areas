@@ -6,6 +6,7 @@
       destinations:
         - id: "prison:cell2"
           title: "Cell 2"
+          time: 10
 
 - id: cell2
   title: "Cell 2"
@@ -15,3 +16,4 @@
       destinations: 
         - id: "prison:cell1"
           title: "Cell 1"
+          time: 30
